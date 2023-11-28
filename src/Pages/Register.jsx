@@ -4,7 +4,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import './Register.css';
 
-const App = () => {
+const App: React.FC = () => {
   const formik = useFormik({
     initialValues: {
       name: '',

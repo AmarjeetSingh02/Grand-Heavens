@@ -1,7 +1,8 @@
 import React from 'react'
 import"./Login.css";
+import { Link } from 'react-router-dom';
 
-const Login = () => {
+const Login: React.FC = () => {
   return (
     <div>
       <div className="Login-form">
@@ -13,6 +14,8 @@ const Login = () => {
             <div className="login-btn">
                 <button>Login</button>
             </div>
+            <Link to="/register">
+            <p>Register</p></Link>
 
         </div>
       </div>
