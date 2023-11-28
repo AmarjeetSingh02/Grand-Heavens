@@ -1,0 +1,75 @@
+.card {
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.head {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.head h1 {
+  padding: 5px 25px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+  font-weight: 400;
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card label {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px 13px;
+  margin-top: 5px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background: rgb(238, 236, 236);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.radio-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.button-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  background: blueviolet;
+  color: white;
+  cursor: pointer;
+}
